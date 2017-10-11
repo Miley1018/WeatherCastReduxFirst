@@ -6,7 +6,7 @@ class GoogleMap extends Component{
             zoom:12,
             center:{
                 lat:Number(this.props.lat),
-                lng: Number(this.props.lng)
+                lng: Number(this.props.lon)
             }
         })
     }
